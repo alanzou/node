@@ -5,7 +5,7 @@ const app = express();
 dotenv.config();
 
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome" });
+  res.json({ message: "Welcome 2" });
 });
 
 // set port, listen for requests
